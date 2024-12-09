@@ -23,8 +23,8 @@ This project is a simple WebSocket service built using Pyhton and Docker. You ca
 
 3. **Build and run the application with Docker**:
    ```bash
-   docker build -t sinatra-app .
-   docker run -d -p 4567:4567 --name sinatra-container sinatra-app
+   docker image build -t websocketconpython:latest .
+   docker run -d -p 5000:5000 websocketconpython:latest
    ```
 
 4. **Access the WebHook**:
